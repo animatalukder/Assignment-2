@@ -1,0 +1,114 @@
+.bg{
+  background-color: rgba(17, 17, 17, 1);
+}
+
+.display-flex{
+    display: flex;
+}
+.orange-color{
+  background-color: rgba(230, 83, 60, 1);
+}
+.white-color{
+  color: rgba(255, 255, 255, 1);
+}
+.black-color{
+ background-color:  rgba(17, 17, 17, 1);
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    border: 10px;
+    margin-right: 10px;
+    gap: 10px;
+  }
+  .nav-items{
+    text-decoration: none;
+    list-style: none;
+    gap: 10px;
+    margin-right: 130px;
+    font-weight: 200;
+    padding-right: 5px;
+    color: rgba(255, 255, 255, 1);
+    
+  }
+  .brand{
+    margin-left: 200px;
+    font-size: large;
+    font-weight: 700;
+    color: rgba(230, 83, 60, 1); 
+  }
+  .banner-title{
+    font-size: 50px;
+    font-weight: 800;
+    margin-left: 300px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .banner-description{
+    color: rgba(255, 255, 255, 1);
+    margin-left: 300px;
+    margin-bottom:20px ;
+    gap: 20px;
+  }
+  .banner-btn{
+    padding: 5px 20px;
+    
+    justify-content:space-around;
+    margin-left: 300px;
+    border-radius: 20px;
+    border-color:rgba(255, 255, 255, 1);
+     }
+     .btn-1{
+      border-style: none;
+     }
+     .Habits{
+      justify-content: center;
+      text-align: center;
+      margin-top: 50px;
+     }
+     .habits-title{
+      font-size: 30px;
+      font-weight: 600;
+     }
+     .habits-description{
+      font-size: 10px;
+      color: rgba(255, 255, 255, 0.5);
+      
+     }
+     .habits-img{
+     
+      justify-content: space-between;
+      
+    
+     }
+     .img-title{
+      text-align: center;
+      justify-content: space-between;
+      margin: 0 20px 0 20px;
+      padding: 0 100px;
+     }
+     .img-description{
+       justify-content: space-between;
+       color: rgba(255, 255, 255, 0.5);
+     }
+     .run{
+      width: 700px;
+      height: 50px;
+      border: 1px solid;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      justify-content: space-between;
+      text-align: center;
+      margin-right:50%; 
+      
+     }
+     .box-description{
+      color: rgba(255, 255, 255, 0.5);
+     }
+     .box-img{
+      width: 100%;
+      height: 100%;
+      margin-right: 100px;
+     }
+     .box{
+      display: flex;
+     }
