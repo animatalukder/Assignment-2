@@ -187,11 +187,57 @@
       padding: 40px 40px;
       background-color: #ffffff14;
      }
+     .meet-description{
+      color:rgba(255, 255, 255, 0.5) ;
+      text-align: center;
+      margin-top: -30px;
+     }
+     .meet-title{
+      text-align: center;
+      font-size: 30px;
+      font-weight: 400;
+     }
+     .meet-img{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      max-width: 100%;
+      height: auto;
+      gap: 10px;
+      margin: 50px 350px;
+      padding: 20px 5px;
+      background-color:#ffffff14 ;
+     }
+     .image-1a{
+      width: 200px;
+      height: 200px;
+     }
+     .images-2a{
+      width: 200px;
+      height: 200px;
+     }
+     .image-3a{
+      width: 200px;
+      height: 200px;
+     }
+     .image-4a{
+      width: 200px;
+      height: 200px;
+     }
+     .image-5a{
+      width: 200px;
+      height: 200px;
+     }
+     .image-6a{
+      width: 200px;
+      height: 200px;
+     }
      @media screen and (max-width:576px) {
           
             .navbar,
             .banner,
-            .Habits{
+            .Habits,
+            .run,
+            .meet{
               flex-direction: column;
               text-align: center;
               justify-content: center;
