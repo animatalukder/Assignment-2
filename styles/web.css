@@ -231,13 +231,64 @@
       width: 200px;
       height: 200px;
      }
+     .foot-title{
+      color:rgba(230, 83, 60, 1) ;
+      font-size: 40px;
+      font-weight: 600;
+      margin: 20px 200px;
+     }
+     .foot-description{
+      color: rgba(255, 255, 255, 0.5);
+      margin: 20px 200px;
+     }
+     .foot-part2-title{
+       font-size: 20px;
+       font-weight: 300;
+       margin-left: -50px;
+     }
+     .foot-part2-items{
+      color: rgba(255, 255, 255, 0.5);
+      list-style: none;
+      margin-left: -90px;
+     }
+     .foot-part3-title{
+      font-size: 20px;
+      font-weight: 300;
+      margin-right: -500px;
+     }
+     .foot-part3-items{
+      color: rgba(255, 255, 255, 0.5);
+      list-style: none;
+      padding: 0px 30px;
+     }
+     .foot-part3{
+      margin-right: 200px;
+      padding: 0px 50px;
+     }
+     .footer{
+      display: flex;
+     }
+     .border{
+      border: 1px solid;
+      color:rgba(255, 255, 255, 0.5) ;
+      margin: 10px 150px;
+     }
+     .foot-part-4{
+      color: rgba(255, 255, 255, 0.5) ;
+      text-align: center;
+     }
+     .last-part{
+      background-color: #ffffff14 ;
+     }
+
      @media screen and (max-width:576px) {
           
             .navbar,
             .banner,
             .Habits,
             .run,
-            .meet{
+            .meet,
+            .last-part{
               flex-direction: column;
               text-align: center;
               justify-content: center;
